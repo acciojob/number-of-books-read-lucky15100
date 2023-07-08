@@ -1,25 +1,20 @@
 const library = [
   {
-    author: "Bill Gates",
-    title: "The Road Ahead",
-    readingStatus: true,
+    author: 'Author 1',
+    title: 'Book 1',
+    readingStatus: true
   },
   {
-    author: "Steve Jobs",
-    title: "Walter Isaacson",
-    readingStatus: true,
+    author: 'Author 2',
+    title: 'Book 2',
+    readingStatus: false
   },
   {
-    author: "Suzanne Collins",
-    title: "Mockingjay: The Final Book of The Hunger Games",
-    readingStatus: false,
-  },
+    author: 'Author 3',
+    title: 'Book 3',
+    readingStatus: true
+  }
 ];
 
-const numberOfBooksRead = () => {
-  // write your code here
-};
-
-// Do not change the code below
-
-alert(numberOfBooksRead());
+const numBooksRead = numberOfBooksRead(library);
+console.log(numBooksRead); // Output: 2
